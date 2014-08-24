@@ -38,3 +38,19 @@ def draw_triangle():
     for x in range(0,3):
         orangie.forward(100)
         orangie.right(120)
+    
+def draw_shapes():
+    #create screen
+    window = turtle.Screen()
+    window.bgcolor("#ecf0f1")   
+
+    draw_square()
+    draw_circle()
+    draw_triangle()
+
+    windows.exitonclick()
+
+draw_shapes()
+    
+
+
